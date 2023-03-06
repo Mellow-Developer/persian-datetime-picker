@@ -141,7 +141,7 @@ Future<Jalali?> showPersianDatePicker({
     );
   }
 
-  return showDialog<Jalali>(
+  return showModalBottomSheet<Jalali>(
     context: context,
     useRootNavigator: useRootNavigator,
     routeSettings: routeSettings,
