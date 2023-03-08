@@ -1,5 +1,6 @@
 library datetimepicker;
 
+/// My version of persian date time picker
 export 'src/ptime_picker.dart';
 export 'src/pdate_utils.dart';
 export 'src/pinput_date_picker.dart';
